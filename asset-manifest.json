@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ee995524.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.94715cf7.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.94715cf7.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.82cc7ff2.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.82cc7ff2.js.map",
+    "static/js/2.0d3cd4e7.chunk.js": "/React-Portfolio/static/js/2.0d3cd4e7.chunk.js",
+    "static/js/2.0d3cd4e7.chunk.js.map": "/React-Portfolio/static/js/2.0d3cd4e7.chunk.js.map",
+    "static/js/3.b5f3ebec.chunk.js": "/React-Portfolio/static/js/3.b5f3ebec.chunk.js",
+    "static/js/3.b5f3ebec.chunk.js.map": "/React-Portfolio/static/js/3.b5f3ebec.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.ee995524.chunk.css.map": "/React-Portfolio/static/css/main.ee995524.chunk.css.map",
+    "static/js/2.0d3cd4e7.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.0d3cd4e7.chunk.js.LICENSE.txt",
+    "static/media/LEDLight.43d6f686.png": "/React-Portfolio/static/media/LEDLight.43d6f686.png",
+    "static/media/focus.56f69892.png": "/React-Portfolio/static/media/focus.56f69892.png",
+    "static/media/leaguebot.422f83b6.png": "/React-Portfolio/static/media/leaguebot.422f83b6.png",
+    "static/media/pomod.56343d37.png": "/React-Portfolio/static/media/pomod.56343d37.png",
+    "static/media/seir.a4d936e2.png": "/React-Portfolio/static/media/seir.a4d936e2.png",
+    "static/media/signsl.074561da.png": "/React-Portfolio/static/media/signsl.074561da.png",
+    "static/media/studio.03e77d0a.png": "/React-Portfolio/static/media/studio.03e77d0a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82cc7ff2.js",
+    "static/js/2.0d3cd4e7.chunk.js",
+    "static/css/main.ee995524.chunk.css",
+    "static/js/main.94715cf7.chunk.js"
+  ]
+}
