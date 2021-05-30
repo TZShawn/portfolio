@@ -51,7 +51,7 @@ class Projects extends Component {
                     </div>
                     <div className="column" style={colcss}>
                         <Card style={cardcss}>
-                            <Card.Img src={pomod} alt="" style={cardcss}/>
+                            <Card.Img src={pomod} alt="" style={cardcss}/> 
                         </Card>
                     </div>
                 </div>
