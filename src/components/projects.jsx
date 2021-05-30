@@ -55,19 +55,6 @@ class Projects extends Component {
                         </Card>
                     </div>
                 </div>
-
-                <div className="container columns is-desktop is-centered" style={row}>  
-                    <div className="column" style={colcss}>
-                        <Card style={cardcss}>
-                            <Card.Img src={LED} alt="" style={cardcss}/>
-                        </Card>
-                    </div>
-                    <div className="column" style={colcss}>
-                        <Card style={cardcss}>
-                            <Card.Img src={seir} alt="" style={cardcss}/>
-                        </Card>
-                    </div>
-            </div>
             </div>
          );
     }
