@@ -12,7 +12,8 @@ class Projects extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            title: ['Studi.io', 'Sign Slate', 'Focus++', 'NaviGreen', 'League Stat Bot', 'Pomodoro', 'Arduino LED', 'SEIR Model']
+            title: ['Studi.io', 'Sign Slate', 'Focus++', 'NaviGreen', 'League Stat Bot', 
+                    'Pomodoro', 'Arduino LED', 'SEIR Model']
          }
     }
     render() { 
