@@ -113,8 +113,8 @@ class Projects extends Component {
                                 <Card.Img className="frontc" src={circle} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%', opacity:'0%'}}>
-                                        <h2 className="head2" style={{paddingTop: '10%', marginBottom: '10%'}}>this is a placeholder</h2>
-                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                        <h2 className="head2 desctex" style={{paddingTop: '10%', marginBottom: '10%'}}>Network tool</h2>
+                                        {/*<strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>*/}
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -123,9 +123,10 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={hand} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%'}}>
-                                        <h2 className="head2" style={{paddingTop: '10%', marginBottom: '10%'}}>this is a placeholder</h2>
-                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2 desctex" style={{paddingTop: '10%', marginBottom: '10%'}}>A machine learning
+                                        program that converts handwriting to text to aid people with improving their handwriting</h2>
+                                        {/*<strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>*/}
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -164,4 +165,5 @@ const butcss = {
     color: 'black',
     padding: '.5% 1.5%'
 }
+
 export default Projects;

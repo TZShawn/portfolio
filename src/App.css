@@ -61,11 +61,11 @@ html, body {
 
 
 .projcard:hover .frontc{
-  animation: fadeout 1s forwards
+  animation: fadeout 0.5s forwards
 }
 
 .projcard:hover .hov{
-  animation: fadein 1s forwards
+  animation: fadein 0.5s forwards
 }
 
 @keyframes fadein {
