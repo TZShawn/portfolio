@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Col, Row, Container} from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
 export default class Jobcard extends Component {
     constructor(props) {

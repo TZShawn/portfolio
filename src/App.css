@@ -46,3 +46,22 @@ html, body {
     font-size: 15px !important;
   }
 }
+
+/***********************    HOVER    ***************************/
+
+.projcard:hover .hover{
+  display: block;
+}
+
+.projcard:hover .frontc{
+  animation: colchg 1s 1 forwards
+}
+
+@keyframes colchg {
+
+  0% { color: white; opacity: 100%;}
+
+  100%{
+    color: red; opacity: 0%;
+  }
+}

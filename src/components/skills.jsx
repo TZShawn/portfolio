@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Container} from 'react-bootstrap';
 
 class Skills extends Component {
     constructor(props) {
