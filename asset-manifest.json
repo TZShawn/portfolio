@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.05556cc9.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.a351dfe8.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.d3e57514.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.d3e57514.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.82cc7ff2.js",
@@ -10,7 +10,7 @@
     "static/js/3.b5f3ebec.chunk.js": "/React-Portfolio/static/js/3.b5f3ebec.chunk.js",
     "static/js/3.b5f3ebec.chunk.js.map": "/React-Portfolio/static/js/3.b5f3ebec.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.05556cc9.chunk.css.map": "/React-Portfolio/static/css/main.05556cc9.chunk.css.map",
+    "static/css/main.a351dfe8.chunk.css.map": "/React-Portfolio/static/css/main.a351dfe8.chunk.css.map",
     "static/js/2.a44b4c64.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a44b4c64.chunk.js.LICENSE.txt",
     "static/media/focus.56f69892.png": "/React-Portfolio/static/media/focus.56f69892.png",
     "static/media/leaguebot.422f83b6.png": "/React-Portfolio/static/media/leaguebot.422f83b6.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.82cc7ff2.js",
     "static/js/2.a44b4c64.chunk.js",
-    "static/css/main.05556cc9.chunk.css",
+    "static/css/main.a351dfe8.chunk.css",
     "static/js/main.d3e57514.chunk.js"
   ]
 }
