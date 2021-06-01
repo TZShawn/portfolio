@@ -59,12 +59,13 @@ html, body {
 
 /***********************    HOVER    ***************************/
 
-.projcard:hover .hov{
-  animation: fadein 1s forwards
-}
 
 .projcard:hover .frontc{
   animation: fadeout 1s forwards
+}
+
+.projcard:hover .hov{
+  animation: fadein 1s forwards
 }
 
 @keyframes fadein {
@@ -78,7 +79,9 @@ html, body {
 
 @keyframes fadeout {
 
-  0% {}
+  0% {
+    opacity: 100%;
+  }
 
   100%{
     opacity: 0%;

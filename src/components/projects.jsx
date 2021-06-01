@@ -8,6 +8,7 @@ import studio from './images/studio.png'
 import pomod from './images/pomod.png'
 import circle from './images/circleio.png'
 import hand from './images/handwritten.png'
+
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -31,7 +32,7 @@ class Projects extends Component {
                                         <h2 className="head2 desctex">A study aid tool that uses machine learning
                                             to track where students are looking. Users can accumulate points as an 
                                             incentive</h2>
-                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} href="https://devpost.com/software/studi-io"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -43,7 +44,7 @@ class Projects extends Component {
                                     <div className="hov" style={{height: '100%', opacity:'0%'}}>
                                         <h2 className="head2 desctex">A machine learning sign language translator
                                         to help aid communication with the hard of hearing</h2>
-                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} href="https://devpost.com/software/sign-slate"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -55,7 +56,7 @@ class Projects extends Component {
                                     <div className="hov" style={{height: '100%', opacity:'0%'}}>
                                         <h2 className="head2 desctex">A prototype of studi.io which indicates wether
                                         the user is looking at the content at hand. </h2>
-                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} href="https://devpost.com/software/focus-ulvbr3"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -71,7 +72,7 @@ class Projects extends Component {
                                         <h2 className="head2 desctex">A carbon emission tracker that helps users 
                                         become more environmentally aware of their travel habits by plotting 
                                         their route and calculating the carbon emissions.</h2>
-                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} href="https://devpost.com/software/navi-green"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -84,7 +85,7 @@ class Projects extends Component {
                                         <h2 className="head2 desctex">A discord bot for League of Legends which generates
                                          the most popular setup for any given champ. Additionally, it provides player 
                                          statistics</h2>
-                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                        <strong><a style={butcss} href="https://github.com/TZShawn/LOL-stat-bot"><i class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -96,7 +97,7 @@ class Projects extends Component {
                                     <div className="hov" style={{height: '100%', opacity:'0%'}}>
                                         <h2 className="head2 desctex">A timer used to help users track their study habits 
                                         throughg the pomodoro technique</h2>
-                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                        <strong><a style={butcss} href="https://github.com/TZShawn/Pomodoro_Ext"><i class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay> 
                             </Card>
