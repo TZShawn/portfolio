@@ -10,7 +10,7 @@ export default class Jumbotron extends Component {
             <div className="front">
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
                     <h1 className="topname" style={{fontSize:"30px", padding: "2%"}}><strong style={{color:"#7510f7"}}>Shawn Xue</strong></h1>
-                    <strong><a className="jumbobut" style={butcss}>Contact Me</a></strong>
+                    <strong><a className="jumbobut" style={butcss} href="#cont">Contact Me</a></strong>
                 </div>
                 <h1 style={{fontSize:"50px", paddingTop: "10%", paddingLeft: '20%', 
                     paddingRight: '20%'}} className="animate__animated animate__fadeIn"><strong>Hi, I'm Shawn Xue</strong></h1>

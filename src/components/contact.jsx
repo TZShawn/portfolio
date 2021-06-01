@@ -13,7 +13,7 @@ class Contact extends Component {
         const imag = this.state.imagec.map(i => 
             <li style={{display: 'inline', padding: '2%'}}><a><i class={i}/></a></li>)
         return ( 
-            <div style={{paddingTop: '2%'}}>
+            <div id="cont" style={{paddingTop: '2%'}}>
                 <div style={{paddingTop: '2%', paddingBottom: '2%', backgroundColor: '#7510F7'}}>
                     <h1 className="head1" style={{color: 'white', paddingBottom: '2%'}}>Contact Me</h1>
                     <div style={{display: 'flex', justifyContent: 'center', 

@@ -29,9 +29,7 @@ class Projects extends Component {
                                 <Card.Img className="frontc" src={studio} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%' }}>
-                                        <h2 className="head2 desctex">A study aid tool that uses machine learning
-                                            to track where students are looking. Users can accumulate points as an 
-                                            incentive</h2>
+                                        <h2 className="head2 desctex">A study aid tool that determines if users are focused</h2>
                                         <strong><a style={butcss} href="https://devpost.com/software/studi-io"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
@@ -41,9 +39,8 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={signsl} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
-                                        <h2 className="head2 desctex">A machine learning sign language translator
-                                        to help aid communication with the hard of hearing</h2>
+                                    <div className="hov" style={{height: '100%'}}>
+                                        <h2 className="head2 desctex">A machine learning sign language translator</h2>
                                         <strong><a style={butcss} href="https://devpost.com/software/sign-slate"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
@@ -54,8 +51,7 @@ class Projects extends Component {
                                 <Card.Img className="frontc" src={focus} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%' }}>
-                                        <h2 className="head2 desctex">A prototype of studi.io which indicates wether
-                                        the user is looking at the content at hand. </h2>
+                                        <h2 className="head2 desctex">A prototype of studi.io that determines if users are focused</h2>
                                         <strong><a style={butcss} href="https://devpost.com/software/focus-ulvbr3"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
@@ -69,9 +65,7 @@ class Projects extends Component {
                                 <Card.Img className="frontc" src={navig} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%' }}>
-                                        <h2 className="head2 desctex">A carbon emission tracker that helps users 
-                                        become more environmentally aware of their travel habits by plotting 
-                                        their route and calculating the carbon emissions.</h2>
+                                        <h2 className="head2 desctex">A carbon emissions calculator for any given trip</h2>
                                         <strong><a style={butcss} href="https://devpost.com/software/navi-green"><i class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
@@ -83,8 +77,7 @@ class Projects extends Component {
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%' }}>
                                         <h2 className="head2 desctex">A discord bot for League of Legends which generates
-                                         the most popular setup for any given champ. Additionally, it provides player 
-                                         statistics</h2>
+                                        champion setups and player stats</h2>
                                         <strong><a style={butcss} href="https://github.com/TZShawn/LOL-stat-bot"><i class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
@@ -96,7 +89,7 @@ class Projects extends Component {
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%'}}>
                                         <h2 className="head2 desctex">A timer used to help users track their study habits 
-                                        throughg the pomodoro technique</h2>
+                                        through the pomodoro technique</h2>
                                         <strong><a style={butcss} href="https://github.com/TZShawn/Pomodoro_Ext"><i class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay> 
