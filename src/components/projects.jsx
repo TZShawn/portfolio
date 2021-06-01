@@ -6,6 +6,8 @@ import signsl from './images/signsl.png'
 import navig from './images/navig.png'
 import studio from './images/studio.png'
 import pomod from './images/pomod.png'
+import circle from './images/circleio.png'
+import hand from './images/handwritten.png'
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -23,26 +25,39 @@ class Projects extends Component {
                     <div className="container columns is-desktop is-centered" style={row}>  
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
                                 <Card.Img className="frontc" src={studio} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2 desctex">A study aid tool that uses machine learning
+                                            to track where students are looking. Users can accumulate points as an 
+                                            incentive</h2>
+                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>  
                                 <Card.Img className="frontc" src={signsl} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2 desctex">A machine learning sign language translator
+                                        to help aid communication with the hard of hearing</h2>
+                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
                                 <Card.Img className="frontc" src={focus} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2 desctex">A prototype of studi.io which indicates wether
+                                        the user is looking at the content at hand. </h2>
+                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                     </div>
@@ -50,26 +65,40 @@ class Projects extends Component {
                     <div className="container columns is-desktop is-centered" style={row}>  
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
                                 <Card.Img className="frontc" src={navig} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2 desctex">A carbon emission tracker that helps users 
+                                        become more environmentally aware of their travel habits by plotting 
+                                        their route and calculating the carbon emissions.</h2>
+                                        <strong><a style={butcss}><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
                                 <Card.Img className="frontc" src={leaguebot} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity: '0%'}}>
+                                        <h2 className="head2 desctex">A discord bot for League of Legends which generates
+                                         the most popular setup for any given champ. Additionally, it provides player 
+                                         statistics</h2>
+                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
-                                <Card.Img className="frontc" src={pomod} alt="" style={cardcss}/> 
+                                <Card.Img className="frontc" src={pomod} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2 desctex">A timer used to help users track their study habits 
+                                        throughg the pomodoro technique</h2>
+                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                    </div>
+                                </Card.ImgOverlay> 
                             </Card>
                         </div>
                     </div>
@@ -80,26 +109,24 @@ class Projects extends Component {
                     <div className="container columns is-desktop is-centered" style={row}>  
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
-                                <Card.Img className="frontc" src={studio} alt="" style={cardcss}/>
+                                <Card.Img className="frontc" src={circle} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%', opacity:'0%'}}>
+                                        <h2 className="head2" style={{paddingTop: '10%', marginBottom: '10%'}}>this is a placeholder</h2>
+                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                         <div className="column" style={colcss}>
                             <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>  
-                                <Card.Img className="frontc" src={signsl} alt="" style={cardcss}/>
-                            </Card>
-                        </div>
-                        <div className="column" style={colcss}>
-                            <Card className="projcard" style={cardcss}>
-                                <div className="hov" style={{display: 'none'}}>
-                                    <h2 className="head2">this is a placeholder</h2>
-                                </div>
-                                <Card.Img className="frontc" src={focus} alt="" style={cardcss}/>
+                                <Card.Img className="frontc" src={hand} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%'}}>
+                                        <h2 className="head2" style={{paddingTop: '10%', marginBottom: '10%'}}>this is a placeholder</h2>
+                                        <strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                     </div>
@@ -123,5 +150,17 @@ const cardcss = {
 const colcss = {
     maxWidth: '50vh',
     display: 'inline'
+}
+
+const butcss = {
+    borderRadius: '50px',
+    backgroundColor: 'white',
+    fontSize: '20px',
+    marginTop: '10%',
+    borderStyle: 'solid',
+    borderWidth: 'thick',
+    borderColor: 'black',
+    color: 'black',
+    padding: '.5% 1.5%'
 }
 export default Projects;

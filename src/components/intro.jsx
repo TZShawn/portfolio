@@ -14,7 +14,8 @@ export default class Intro extends Component {
         return ( 
             <div style={{width:'100%', backgroundColor: '#7510F7', color:'white', paddingTop:'2.5%', paddingBottom:'5%'}}>
                 <h1 className="head1">Hi, I'm Shawn</h1>
-                <h2 className="head2" style={{paddingLeft:'15%', paddingRight:'15%'}}>Hi</h2>
+                <h2 className="head2" style={{paddingLeft:'15%', paddingRight:'15%'}}>I am a 
+                student at the Unversity of Waterloo studying mathematics to become a data scientist.</h2>
             </div>
          );
     }

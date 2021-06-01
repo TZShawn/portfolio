@@ -13,8 +13,8 @@ export default class Jumbotron extends Component {
                     <strong><a className="jumbobut" style={butcss}>Contact Me</a></strong>
                 </div>
                 <h1 style={{fontSize:"50px", paddingTop: "10%", paddingLeft: '20%', 
-                    paddingRight: '20%'}}><strong>Hi, I'm Shawn Xue</strong></h1>
-                <h2 className="head2" style={{paddingTop: '2%', paddingLeft: '20%', 
+                    paddingRight: '20%'}} className="animate__animated animate__fadeIn"><strong>Hi, I'm Shawn Xue</strong></h1>
+                <h2 className="head2 animate__animated animate__fadeIn animate__delay-0.5s" style={{paddingTop: '2%', paddingLeft: '20%', 
                     paddingRight: '20%'}}><strong>I'm an aspiring developer and data scientist
                                                  whos always willing to learn more</strong></h2>
             </div>

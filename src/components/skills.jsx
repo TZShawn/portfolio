@@ -11,7 +11,7 @@ class Skills extends Component {
     render() { 
         const imag = this.state.imaged.map(i => <div className="column is-auto-desktop" 
                             style={{padding: 0, margin: 0}}>
-                            <i class={i} id="bruh" style={{width:'40%', paddingRight:'5%', color:'white'}} /></div>)
+                            <i className="animate__animated animate__fadeIn" class={i} id="bruh" style={{width:'40%', paddingRight:'5%', color:'white'}} /></div>)
         return ( 
             <div style={{paddingTop: '2%', paddingBottom: '2%', backgroundColor: '#7510F7'}}>
                     <h1 className="head1" style={{fontSize: '300%', color: 'white', paddingBottom: '2%'}}>Skills</h1>
