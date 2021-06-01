@@ -47,6 +47,15 @@ html, body {
   }
 }
 
+.frontc{
+  transition: 1s ease;
+}
+
+.hov{
+  opacity: 0;
+  transition: 1s ease;
+}
+
 .desctex{
   padding-top: 10%;
   margin-bottom: 10%;
@@ -61,11 +70,11 @@ html, body {
 
 
 .projcard:hover .frontc{
-  animation: fadeout 0.5s forwards
+  opacity: 0;
 }
 
 .projcard:hover .hov{
-  animation: fadein 0.5s forwards
+  opacity: 1;
 }
 
 @keyframes fadein {
