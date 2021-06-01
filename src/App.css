@@ -59,7 +59,7 @@ html, body {
 
 @keyframes colchg {
 
-  0% { color: white; opacity: 100%;}
+  0% {}
 
   100%{
     color: red; opacity: 0%;
