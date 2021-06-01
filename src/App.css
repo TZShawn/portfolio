@@ -54,7 +54,7 @@ html, body {
 }
 
 .projcard:hover .frontc{
-  animation: colchg 1s 1 forwards
+  animation: colchg 2s 1 forwards
 }
 
 @keyframes colchg {
