@@ -27,25 +27,6 @@ html, body {
 .front {
   height: 100vh;
 }
-@media (max-width: 768px) {
-  .topname{
-    font-size: 25px !important;
-  }
-  .jumbobut{
-    font-size: 15px !important;
-  }
-
-  .head1{
-    font-family: Russo One; 
-    font-size: 25px !important;
-    padding-bottom: 1%;
-  }
-  
-  .head2{
-    font-family: 'Roboto';
-    font-size: 15px !important;
-  }
-}
 
 .frontc{
   transition: 0.5s ease;
@@ -80,4 +61,32 @@ html, body {
 
 .projcard:hover .hov{
   opacity: 1;
+}
+
+/***************** MEDIA QUERYS ***************/
+@media (max-width: 768px) {
+  .topname{
+    font-size: 25px !important;
+  }
+  .jumbobut{
+    font-size: 15px !important;
+  }
+
+  .head1{
+    font-family: Russo One; 
+    font-size: 25px !important;
+    padding-bottom: 1%;
+  }
+  
+  .head2{
+    font-family: 'Roboto';
+    font-size: 15px !important;
+  }
+
+}
+
+@media (max-width: 1024px){
+  .desctex{
+    font-size: 35px;
+  }
 }

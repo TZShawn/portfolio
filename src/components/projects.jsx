@@ -106,7 +106,8 @@ class Projects extends Component {
                                 <Card.Img className="frontc" src={circle} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
                                     <div className="hov" style={{height: '100%' }}>
-                                        <h2 className="head2 desctex" style={{paddingTop: '10%', marginBottom: '10%'}}>Network tool</h2>
+                                        <h2 className="head2 desctex" style={{paddingTop: '10%', marginBottom: '10%'}}>A networking tool for aspiring 
+                                        creators to build a team</h2>
                                         {/*<strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>*/}
                                     </div>
                                 </Card.ImgOverlay>
