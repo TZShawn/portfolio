@@ -85,8 +85,17 @@ html, body {
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1023px){
   .desctex{
     font-size: 35px;
+  }
+}
+
+@media (max-width: 1600px){
+  .desctex{
+    font-size: 15px;
+  }
+  .linkbut{
+    font-size: 1px;
   }
 }
