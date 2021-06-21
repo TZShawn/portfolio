@@ -8,6 +8,7 @@ import studio from './images/studio.png'
 import pomod from './images/pomod.png'
 import circle from './images/circleio.png'
 import hand from './images/handwritten.png'
+import value from './images/valuex.png';
 
 class Projects extends Component {
     constructor(props) {
@@ -93,6 +94,20 @@ class Projects extends Component {
                                         <strong><a style={butcss} href="https://github.com/TZShawn/Pomodoro_Ext"><i class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay> 
+                            </Card>
+                        </div>
+                    </div>
+
+                    <div className="container columns is-desktop is-centered" style={row}>  
+                        <div className="column" style={colcss}>
+                            <Card className="projcard" style={cardcss}>
+                                <Card.Img className="frontc" src={value} alt="" style={cardcss}/>
+                                <Card.ImgOverlay>
+                                    <div className="hov" style={{height: '100%' }}>
+                                        <h2 className="head2 desctex">A second hand marketplace where users sell unwanted items to others at a heavily discounted price</h2>
+                                        <strong><a style={butcss} href="https://devpost.com/software/ValuEx"><i class="fab fa-dev"></i> Devpost</a></strong>
+                                    </div>
+                                </Card.ImgOverlay>
                             </Card>
                         </div>
                     </div>

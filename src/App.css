@@ -90,3 +90,9 @@ html, body {
     font-size: 35px;
   }
 }
+
+@media (max-height: 808px){
+  .desctex{
+    font-size: 15px;
+  }
+}
