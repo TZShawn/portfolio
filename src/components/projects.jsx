@@ -29,9 +29,9 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={studio} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
+                                    <div className="hov hovdiv"  style={{height: '100%' }}>
                                         <h2 className="head2 desctex">A study aid tool that determines if users are focused</h2>
-                                        <strong><a style={butcss} href="https://devpost.com/software/studi-io"><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} id="linkbut" href="https://devpost.com/software/studi-io"><i id="linkbut" class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -40,9 +40,9 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={signsl} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%'}}>
+                                    <div className="hov hovdiv"  style={{height: '100%'}}>
                                         <h2 className="head2 desctex">A machine learning sign language translator</h2>
-                                        <strong><a style={butcss} href="https://devpost.com/software/sign-slate"><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} id="linkbut" href="https://devpost.com/software/sign-slate"><i id="linkbut" class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -51,9 +51,9 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={focus} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
+                                    <div className="hov hovdiv"  style={{height: '100%' }}>
                                         <h2 className="head2 desctex">A prototype of studi.io that determines if users are focused</h2>
-                                        <strong><a style={butcss} href="https://devpost.com/software/focus-ulvbr3"><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} id="linkbut" href="https://devpost.com/software/focus-ulvbr3"><i id="linkbut" class="fab fa-dev"></i>Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -65,9 +65,9 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={navig} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
+                                    <div className="hov hovdiv"  style={{height: '100%' }}>
                                         <h2 className="head2 desctex">A carbon emissions calculator for any given trip</h2>
-                                        <strong><a style={butcss} href="https://devpost.com/software/navi-green"><i class="fab fa-dev"></i>  Devpost</a></strong>
+                                        <strong><a style={butcss} id="linkbut" href="https://devpost.com/software/navi-green"><i id="linkbut" class="fab fa-dev"></i>  Devpost</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -76,10 +76,10 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={leaguebot} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
+                                    <div className="hov hovdiv"  style={{height: '100%' }}>
                                         <h2 className="head2 desctex">A discord bot for League of Legends which generates
                                         champion setups and player stats</h2>
-                                        <strong><a style={butcss} href="https://github.com/TZShawn/LOL-stat-bot"><i class="fab fa-github"></i>  Github</a></strong>
+                                        <strong><a style={butcss} id="linkbut" href="https://github.com/TZShawn/LOL-stat-bot"><i id="linkbut" class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -88,10 +88,10 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={pomod} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%'}}>
+                                    <div className="hov hovdiv"  style={{height: '100%'}}>
                                         <h2 className="head2 desctex">A timer used to help users track their study habits 
                                         through the pomodoro technique</h2>
-                                        <strong><a style={butcss} href="https://github.com/TZShawn/Pomodoro_Ext"><i class="fab fa-github"></i>  Github</a></strong>
+                                        <strong><a style={butcss} id="linkbut" href="https://github.com/TZShawn/Pomodoro_Ext"><i id="linkbut" class="fab fa-github"></i>  Github</a></strong>
                                     </div>
                                 </Card.ImgOverlay> 
                             </Card>
@@ -120,10 +120,10 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={circle} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
+                                    <div className="hov hovdiv"  style={{height: '100%' }}>
                                         <h2 className="head2 desctex" style={{paddingTop: '10%', marginBottom: '10%'}}>A networking tool for aspiring 
                                         creators to build a team</h2>
-                                        {/*<strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>*/}
+                                        {/*<strong><a style={butcss} id="linkbut"><i id="linkbut" class="fab fa-github"></i>  Github</a></strong>*/}
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
@@ -132,10 +132,10 @@ class Projects extends Component {
                             <Card className="projcard" style={cardcss}>
                                 <Card.Img className="frontc" src={hand} alt="" style={cardcss}/>
                                 <Card.ImgOverlay>
-                                    <div className="hov" style={{height: '100%' }}>
+                                    <div className="hov hovdiv"  style={{height: '100%' }}>
                                         <h2 className="head2 desctex" style={{paddingTop: '10%', marginBottom: '10%'}}>A machine learning
                                         program that converts handwriting to text to aid people with improving their handwriting</h2>
-                                        {/*<strong><a style={butcss}><i class="fab fa-github"></i>  Github</a></strong>*/}
+                                        {/*<strong><a style={butcss} id="linkbut"><i id="linkbut" class="fab fa-github"></i>  Github</a></strong>*/}
                                     </div>
                                 </Card.ImgOverlay>
                             </Card>
