@@ -18,7 +18,7 @@ export default class Jumbotron extends Component {
                     paddingRight: '20%'}}><strong>I'm an aspiring developer and data scientist
                                                  whos always willing to learn more</strong></h2>
             </div>
-         );
+         ); 
     }
 }
 

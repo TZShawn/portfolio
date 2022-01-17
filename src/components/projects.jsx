@@ -107,7 +107,7 @@ class Projects extends Component {
                                         <h2 className="head2 desctex">A second hand marketplace where users sell unwanted items to others at a heavily discounted price</h2>
                                         <strong><a style={butcss} href="https://devpost.com/software/ValuEx"><i class="fab fa-dev"></i> Devpost</a></strong>
                                     </div>
-                                </Card.ImgOverlay>
+                                </Card.ImgOverlay> 
                             </Card>
                         </div>
                     </div>
