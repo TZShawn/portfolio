@@ -11,7 +11,7 @@ const Project: React.FC<{}> = () => {
     var projectIcon: string[] = ["temp1", "temp1", "temp1", "temp1", "temp1", "temp1", "temp1"];
 
     return(
-    <div className="mx-32">
+    <div className="mx-auto w-full px-32">
         <div className="font-bold text-black text-4xl">Projects</div>
         <div className="grid grid-cols-3 gap-4">
             {projectNames.map((proj, index) => (

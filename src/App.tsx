@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Landing from './Sections/landing';
 import Project from './Sections/projects';
 import Footer from './Sections/footer';
+import AboutMe from './Sections/aboutme';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Landing />
         <Project />
         <Footer />
+        <AboutMe />
       </div>
     </div>
   )

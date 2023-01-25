@@ -3,7 +3,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Landing: React.FC<{}> = () => {
   return (
-    <div className="flex flex-col flex-1 w-full h-full justify-center container mx-32">
+    <div className="flex flex-col flex-1 w-full h-full justify-center mx-auto px-32">
       <div className="w-1/2">
         <div className="font-bold text-slate-400 text-3xl">Hi!</div>
         <div className="font-bold text-black text-6xl">I'm Shawn Xue</div>
