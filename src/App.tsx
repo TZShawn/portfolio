@@ -28,8 +28,8 @@ export default function App() {
       <div className='h-full w-full'>
         <Landing />
         <Project />
-        <Footer />
         <AboutMe />
+        <Footer />
       </div>
     </div>
   )

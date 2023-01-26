@@ -2,10 +2,11 @@ import React from "react";
 
 const AboutMe: React.FC = () => {
     return(
-        <div className="mx-auto px-32">
+        <div className="mx-auto px-32 my-14">
             <div className="w-2/3">
                 <div className="font-bold text-black text-4xl py-4">About me</div>
-                <div className="text-lg font-medium">Hi! I am a second year mathematics student at the University of Waterloo and have
+                <div className="text-lg font-medium">Hi! Thank you for scrolling so far, I am a second
+                 year mathematics student at the University of Waterloo and have
                     a passion for web and software development!
                 </div>
                 <div className="text-lg font-medium">Outside of school and coding I enjoy tinkering with custom keyboards and playing video games
