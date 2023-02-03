@@ -8,6 +8,7 @@ import Landing from './Sections/landing';
 import Project from './Sections/projects';
 import Footer from './Sections/footer';
 import AboutMe from './Sections/aboutme';
+import Skills from './Sections/skills';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Landing />
         <Project />
         <AboutMe />
+        <Skills />
         <Footer />
       </div>
     </div>
