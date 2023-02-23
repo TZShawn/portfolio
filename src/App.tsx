@@ -13,19 +13,6 @@ import Skills from './Sections/skills';
 export default function App() {
   return (
     <div className='h-screen overflow-y-auto'>
-      <Navbar sticky="top">
-        <Container className='m-4'>
-          <Navbar.Brand href="#home">
-            <img
-              src={pnglogo}
-              width="50"
-              height="50"
-              className="d-inline-block align-top"
-              alt="logo"
-            />
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
       <div className='h-full w-full'>
         <Landing />
         <Project />
