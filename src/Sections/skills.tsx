@@ -28,7 +28,7 @@ const Skills: React.FC<{}> = ({}) => {
     </div>
   );
 };
-//dsadsaasdasa
+
 const SkillBox: React.FC<{name: string, image: any}> = ({name, image}) => {
   return (
     <div className="m-auto">
