@@ -17,17 +17,24 @@ const ProjectCard: React.FC<IProjectCard> = ({
 }) => {
   return (
     <div className="border-4 rounded-lg h-full">
+      <img
+        src={"/images/ProjectImages/" + icon}
+        alt={title}
+        className="w-full"
+      />
       <div className="px-4 pt-4">
         <div className="text-2xl font-bold">{title}</div>
-        <div className="text-lg">{description}</div>
+        <div className="text-lg h-28 overflow-hidden">{description}</div>
         <div className="text-sm italic font-medium">{skills}</div>
       </div>
-      <div className="w-full flex">
-        <div className="w-1/2 p-2 text-center border-2 border-blue-400 bg-blue-300">
-          <a>Check it out</a>
-        </div>
-        <div className="w-1/2 p-2 text-center border-2 border-blue-400 bg-blue-300">
-          <a>Repo</a>
+      <div className="w-full">
+        <div
+          className="-full p-2 text-center border-2 border-blue-400 bg-blue-300 cursor-pointer"
+          onClick={() => {
+            window.open(repo);
+          }}
+        >
+          Repo
         </div>
       </div>
     </div>

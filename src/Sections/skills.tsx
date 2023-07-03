@@ -33,7 +33,6 @@ const SkillBox: React.FC<{name: string, image: any}> = ({name, image}) => {
   return (
     <div className="m-auto">
       <img className="flex justify-center h-14 m-0 p-0" src={image} alt={name}/>
-      <div className="flex justify-center">{name}</div>
     </div>
   )
 }
